@@ -9,7 +9,7 @@ Current Progress: 5% done-ish
 ### IntroCS
 
 - [Introduction to Computer Science - CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!) ([alt](https://cs50.harvard.edu/))
-  * Finished July 2017
+  * Finished July 2017 - first 5 sections per ossu
 - [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10)
   * Started May 2018
   * [General Notes](intro-to-cs-with-python/README.md)
@@ -62,3 +62,25 @@ Readings
 - [Computer Graphics](https://www.edx.org/course/computer-graphics-uc-san-diegox-cse167x)
 - [Cryptography I](https://www.coursera.org/course/crypto)
 - [Software Engineering: Introduction](https://www.edx.org/course/software-engineering-introduction-ubcx-softeng1x)
+
+* * *
+
+## Extra Courses I have started and finished
+
+*Links to other finished repositories and/or summary notes here only*
+
+*Mostly related to webdevelopment*
+
+### Webdevelopment
+
+WebGL
+
+Canvas
+
+CSS/HTML/JS
+
+JS-Specific
+
+CSS-Specific
+
+Frameworks

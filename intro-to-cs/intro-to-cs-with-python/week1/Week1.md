@@ -1,3 +1,5 @@
+https://courses.edx.org/courses/course-v1:MITx+6.00.1x+2T2017_2/course/
+
 ## Week 1 - First Half Notes
 
 We can represent knowledge with data structure. These data structures eventualy make up a computer. All computers can do the following
@@ -80,3 +82,81 @@ Python as a language can do the following
 
 Programs follow a sequence of steps. You can have conditional statements, e.g. forks in potential operations. These are expressed as `if else if` type statements.
 They run in constant time normally, since the same number of steps is taken for each pathway
+
+* * * 
+
+Part 2 Video Series
+
+Variables have two things
+
+- **name** - descriptive, meaningful, helps
+- **value** - informated stored, easily updated
+
+For vs While loops
+For loops
+- **knows** number of iterations
+- end early via break
+- uses counter
+- can rewrite for a loop using a **while** loop
+
+While loops
+- **unbounded** number of iterations
+- can **end early** via break
+- can use a **counter** but must initialize outside of loop
+- **may not rewrite** to a for loop
+
+Iteration is when something goes back to starting point
+
+- Number programs run in constant time
+- With a loop, this now depends on variable counter
+
+Some iterations are algorithms. They do more complex things. An example is a number guesser.
+
+An example of how it works
+
+- You guess a value
+- Check if guess is right
+- If not keep guessing
+- this is called **enumerative enumation**
+
+General Psudocode
+
+```python
+cube = 8
+for guess in range(cube+1):
+  if guess**3 == cube:
+      print("Cube root of ", cube, ” is ", guess)
+```
+
+To improve it, you can check for negative numbers, other test cases etc.
+Going back to loops (while and for), these are their characteristics
+
+- Needs a loop var
+  - Initialize outsided
+  - Changes within loop
+  - Test for termination inside
+
+An example is a **decrementing function**. E.g. Start at a high number position, iterate when for loop is less than 0.
+
+If we mess up the loop, 1 of two things
+- syntax error
+- Infinite loop
+
+We can improve the original code we wrote down. Improve it in two unit test ways 
+
+1. Check for negative numebrs
+2. Allow the other case, in this case something not a cube root (e.g. number 28)
+
+```python
+cube = 8
+for guess in range(abs(cube)+1): # plus one is because its an open bracket at end
+  if guess**3 >= abs(cube):
+    break
+  if guess**3 !== abs(cube)
+    print(cube, 'is not perfect cube')
+  else:
+    if cube < 0:
+      guess = -guess
+    print('Cube root of' + str(cube) + ' is' + str(guess))
+    
+
